@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* General Styles */
+body {
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background: #B2AC88;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav p, nav a {}
+
+nav a {}
+
+nav a:hover {}
+
+/* Footer Styles */
+footer {
+    background: #B2AC88;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {}
+
+footer a:hover {}
+
+/* Splash Section */
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splash h1 {
+    font-family: 'Roboto';
+    color: #B2AC88;
+}
+
+.splash img {
+    border-radius: 10px;
+}
+
+.splash p {
+    font-family: 'Roboto';
+    color: blue;
+}
+
+/* Horizontal Rules */
+hr {
+    border-color: #B2AC88;
+    border-width: 10px;
+}
+
+/* Sections */
+section {
+    font-family: 'Roboto';
+    padding: 20px;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: 'Roboto';
+    color: #B2AC88;
+    font-size: 30px;
+}
+
+/* Paragraph Styles */
+section p {}
+
+/* link styles */
+section a {
+    color: cyan;
+    text-decoration: none;
+}
+section a:hover {
+    color: magenta;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+dl dt{
+    font-weight: 600;
+}
+dl dd{
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.card {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    padding: 5px;
+    outline: auto;
+    box-shadow: inset 0 0 10px #000000;
+    border-radius: 5px;
+    background: lightblue;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form input, form textarea {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #B2AC88;
+}
+
+form button {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    background: #B2AC88;
+    color: white;
+}
+
+form button:hover {
+    background: #ff69b4;
+}
